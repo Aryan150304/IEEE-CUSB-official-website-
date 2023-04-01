@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+.ieee_mv{
+    font-family: 'Poppins', sans-serif;
+    color: #1b4b9d;
+    font-weight: bolder;
+}
+.mission_vision{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    color: white !important;
+    font-weight: 400;
+}
+.ieee_mv{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+.mission{
+    background-color: #ff183bf8;
+    height: 300px;
+    width: 450px;
+    margin-top: 10px;
+    z-index: 1;
+    border-radius: 15px;
+}
+.inner_mission{
+    padding: 30px;
+    padding-right: 35px;
+}
+.vision{
+    background-color: #1b4b9de6;
+    height: 300px;
+    width: 450px;
+    margin-top: -20px;
+    margin-left: -40px;
+    border-radius: 15px;
+    text-align: right;
+}
+.inner_vision{
+    padding: 30px;
+    padding-left: 50px;
+}
+@media only screen and (max-width: 900px) {
+    .mission_vision{
+        scale: 0.8;
+    }
+    .mission_vission_head{
+        margin-bottom: -20px;
+    }
+}
+@media only screen and (max-width: 725px) {
+    .mission_vision{
+        display: flex;
+        flex-direction: column; 
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .mission{
+        background-color: #ff183bf8;
+        height: 250px;
+        max-width: 90%;
+        margin-top: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .vision{
+        background-color: #1b4b9de6;
+        height: 250px;
+        max-width: 90%;
+        margin-top: 0px;
+        margin-left: 0px;
+        border-radius: 15px;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .mission_vission_head{
+        margin-bottom: -20px;
+    }
+}
+
+.mission_vission_head{
+    color:white !important;
+}
+.text{
+    font-family: 'Poppins', sans-serif;
+    color:white !important;
+}
